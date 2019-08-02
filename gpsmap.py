@@ -43,7 +43,7 @@ if __name__ == "__main__":
                 return val
         return ''
 
-img = Image.open("gpsimg.jpg")
+im = Image.open("gpsimg.jpg")
 datetime = get_datetime(img)
 print(datetime)
 
